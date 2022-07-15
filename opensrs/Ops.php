@@ -40,7 +40,7 @@ class Ops
     /**
      * Checks a socket for timeout or EOF.
      *
-     * @param	int 		socket handle
+     * @param resource	socket handle
      *
      * @return bool true if the socket has timed out or is EOF
      */

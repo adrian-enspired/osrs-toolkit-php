@@ -10,9 +10,9 @@ class Request
 {
     /**
      * Process an OpenSRS Request.
-     * 
+     *
      * @param string $format input format (xml, json, array)
-     * @param string $data   data 
+     * @param string $data   data
      */
     public function process($format = '', $data = '')
     {
@@ -49,8 +49,8 @@ class Request
     /**
      * Method to convert Array -> Object -> Array.
      *
-     * @param hash $data Containing array object
-     * 
+     * @param array $data Containing array object
+     *
      * @return stdClass Object $object   Containing stdClass object
      *
      * @since    3.4

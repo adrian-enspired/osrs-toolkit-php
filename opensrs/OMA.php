@@ -19,9 +19,9 @@ class OMA
      * A wrapper method to send a command to the server.
      *
      * @param  string $meth A name of the OMA method
-     * @param  hash   $req  Containing header key/value pairs
-     *                       
-     * @return hash   $res 	Containing header key/value pairs
+     * @param  array   $req  Containing header key/value pairs
+     *
+     * @return array   $res 	Containing header key/value pairs
      *
      * @since   3.3
      */
@@ -36,9 +36,9 @@ class OMA
      * Method to send a command to the server using CURL.
      *
      * @param  string $method  A name of the OMA method
-     * @param  hash   $request Containing header key/value pairs
-     *                          
-     * @return hash   $response 	Containing header key/value pairs
+     * @param  array   $request Containing header key/value pairs
+     *
+     * @return array   $response 	Containing header key/value pairs
      *
      * @since   	3.3
      */
