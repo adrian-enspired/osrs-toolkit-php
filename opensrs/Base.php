@@ -268,7 +268,7 @@ class Base
             throw new Exception('oSRS Error - UNEXPECTED ERROR: No Content-Length header provided! Please make sure IP is whitelisted in RWI.');
         }
 
-        $len = (int) $header{'content-length'};
+        $len = (int) $header['content-length'];
         $line = '';
         while (strlen($line) < $len) {
             $line .= fread($fh, $len);
